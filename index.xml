@@ -12,6 +12,15 @@
     
     
     <item>
+      <title>hugo 博客搭建</title>
+      <link>https://whj2819.github.io/post/2020-03-22/</link>
+      <pubDate>Sun, 22 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://whj2819.github.io/post/2020-03-22/</guid>
+      <description> Manjaro 平台安装 hugo   sudo pacman -S hugo 建立 hugo 项目   hugo new site [project-name] 添加主题   为了加速博客搭建, 我们可以使用主题,这里以 m10c 样式为例. hugo 主题样式  git clone https://github.com/vaga/hugo-theme-m10c.git themes/m10c 启动 hugo   hugo server -t m10c –buildDrafts 用 -t 参数制定主题样式. 添加新的博客   hugo new post/firstBlog.md github 发布&amp;#xa0;&amp;#xa0;&amp;#xa0;todo  </description>
+    </item>
+    
+    <item>
       <title>关于我(about me)</title>
       <link>https://whj2819.github.io/post/first/</link>
       <pubDate>Sun, 22 Mar 2020 00:00:00 +0000</pubDate>
