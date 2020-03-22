@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>hugo on huajie&#39;s Site</title>
+    <link>https://whj2819.github.io/tags/hugo/</link>
+    <description>Recent content in hugo on huajie&#39;s Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 10 Sep 2017 00:00:00 +0800</lastBuildDate>
+    
+	<atom:link href="https://whj2819.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Writing Hugo blog in Org (File Export)</title>
+      <link>https://whj2819.github.io/content/first/</link>
+      <pubDate>Sun, 10 Sep 2017 00:00:00 +0800</pubDate>
+      
+      <guid>https://whj2819.github.io/content/first/</guid>
+      <description> First heading within the post   This post will be exported as content/posts/writing-hugo-blog-in-org-file-export.md  </description>
+    </item>
+    
+  </channel>
+</rss>
