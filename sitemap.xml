@@ -3,17 +3,12 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://whj2819.github.io/content/first/</loc>
-    <lastmod>2020-03-22T23:50:26+08:00</lastmod>
+    <loc>https://whj2819.github.io/post/</loc>
+    <lastmod>2020-03-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://whj2819.github.io/</loc>
-    <lastmod>2020-03-22T23:50:26+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://whj2819.github.io/post/</loc>
     <lastmod>2020-03-22T00:00:00+00:00</lastmod>
   </url>
   
@@ -24,32 +19,10 @@
   
   <url>
     <loc>https://whj2819.github.io/categories/</loc>
-    <lastmod>2020-03-22T23:50:26+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://whj2819.github.io/content/</loc>
-    <lastmod>2020-03-22T23:50:26+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://whj2819.github.io/categories/emacs/</loc>
-    <lastmod>2020-03-22T23:50:26+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://whj2819.github.io/tags/hugo/</loc>
-    <lastmod>2020-03-22T23:50:26+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://whj2819.github.io/tags/org/</loc>
-    <lastmod>2020-03-22T23:50:26+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://whj2819.github.io/tags/</loc>
-    <lastmod>2020-03-22T23:50:26+08:00</lastmod>
   </url>
   
 </urlset>

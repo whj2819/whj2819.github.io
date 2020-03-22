@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>huajie&#39;s Site</title>
+    <title>不吃熊的北极鹅</title>
     <link>https://whj2819.github.io/</link>
-    <description>Recent content on huajie&#39;s Site</description>
+    <description>Recent content on 不吃熊的北极鹅</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 22 Mar 2020 00:00:00 +0000</lastBuildDate>
@@ -12,21 +12,12 @@
     
     
     <item>
-      <title>Writing Hugo blog in Org (File Export)</title>
-      <link>https://whj2819.github.io/content/first/</link>
-      <pubDate>Sun, 10 Sep 2017 00:00:00 +0800</pubDate>
-      
-      <guid>https://whj2819.github.io/content/first/</guid>
-      <description> First heading within the post   This post will be exported as content/posts/writing-hugo-blog-in-org-file-export.md  </description>
-    </item>
-    
-    <item>
       <title>关于我(about me)</title>
       <link>https://whj2819.github.io/post/first/</link>
       <pubDate>Sun, 22 Mar 2020 00:00:00 +0000</pubDate>
       
       <guid>https://whj2819.github.io/post/first/</guid>
-      <description></description>
+      <description> 我是谁? 我在哪? </description>
     </item>
     
   </channel>
