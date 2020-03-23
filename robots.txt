@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://whj2819.github.io/sitemap.xml
