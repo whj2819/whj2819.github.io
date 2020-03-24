@@ -6,9 +6,37 @@
     <description>Recent content in Tags on Even - A super concise theme for Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
+    <lastBuildDate>Tue, 24 Mar 2020 00:00:00 +0800</lastBuildDate>
     
 	<atom:link href="https://whj2819.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>books</title>
+      <link>https://whj2819.github.io/tags/books/</link>
+      <pubDate>Tue, 24 Mar 2020 00:00:00 +0800</pubDate>
+      
+      <guid>https://whj2819.github.io/tags/books/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hugo</title>
+      <link>https://whj2819.github.io/tags/hugo/</link>
+      <pubDate>Sun, 22 Mar 2020 00:00:00 +0800</pubDate>
+      
+      <guid>https://whj2819.github.io/tags/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>manjaro</title>
+      <link>https://whj2819.github.io/tags/manjaro/</link>
+      <pubDate>Sun, 22 Mar 2020 00:00:00 +0800</pubDate>
+      
+      <guid>https://whj2819.github.io/tags/manjaro/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>
