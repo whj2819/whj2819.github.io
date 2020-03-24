@@ -16,22 +16,29 @@
   </url>
   
   <url>
+    <loc>https://whj2819.github.io/post/software/</loc>
+    <lastmod>2020-03-25T04:16:22+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://whj2819.github.io/post/2020/03/22/</loc>
-    <lastmod>2020-03-24T20:19:22+08:00</lastmod>
+    <lastmod>2020-03-25T04:20:29+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://whj2819.github.io/</loc>
-    <lastmod>2020-03-24T21:12:27+08:00</lastmod>
+    <lastmod>2020-03-25T04:20:29+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://whj2819.github.io/post/</loc>
-    <lastmod>2020-03-24T21:12:27+08:00</lastmod>
+    <lastmod>2020-03-25T04:20:29+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -45,35 +52,56 @@
   
   <url>
     <loc>https://whj2819.github.io/tags/</loc>
-    <lastmod>2020-03-24T21:12:27+08:00</lastmod>
+    <lastmod>2020-03-25T04:20:29+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://whj2819.github.io/tags/work/</loc>
+    <lastmod>2020-03-25T04:16:22+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://whj2819.github.io/tags/%E8%BD%AF%E4%BB%B6/</loc>
+    <lastmod>2020-03-25T04:16:22+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://whj2819.github.io/categories/</loc>
-    <lastmod>2020-03-24T20:19:22+08:00</lastmod>
+    <lastmod>2020-03-25T04:20:29+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://whj2819.github.io/categories/emacs/</loc>
-    <lastmod>2020-03-24T20:19:22+08:00</lastmod>
+    <lastmod>2020-03-25T04:20:29+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://whj2819.github.io/tags/hugo/</loc>
-    <lastmod>2020-03-24T20:19:22+08:00</lastmod>
+    <lastmod>2020-03-25T04:20:29+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://whj2819.github.io/tags/manjaro/</loc>
-    <lastmod>2020-03-24T20:19:22+08:00</lastmod>
+    <lastmod>2020-03-25T04:20:29+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://whj2819.github.io/tags/ox-hugo/</loc>
+    <lastmod>2020-03-25T04:20:29+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>

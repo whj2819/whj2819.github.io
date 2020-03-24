@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>work on Even - A super concise theme for Hugo</title>
+    <link>https://whj2819.github.io/tags/work/</link>
+    <description>Recent content in work on Even - A super concise theme for Hugo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 24 Mar 2020 00:00:00 +0800</lastBuildDate>
+    
+	<atom:link href="https://whj2819.github.io/tags/work/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>软件推荐</title>
+      <link>https://whj2819.github.io/post/software/</link>
+      <pubDate>Tue, 24 Mar 2020 00:00:00 +0800</pubDate>
+      
+      <guid>https://whj2819.github.io/post/software/</guid>
+      <description>Software listary 一款实用的搜索工具. everything 文件搜索工具, 也可以用来建设 http 服务. total commander 共享软件, 简称 TC. windows 下功能强大的文件管理器. 主页 wireshark 抓包工具. XCA 证书制作软件.</description>
+    </item>
+    
+  </channel>
+</rss>
