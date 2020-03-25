@@ -6,10 +6,19 @@
     <description>Recent content in 软件 on Even - A super concise theme for Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 24 Mar 2020 00:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 25 Mar 2020 00:00:00 +0800</lastBuildDate>
     
 	<atom:link href="https://whj2819.github.io/tags/%E8%BD%AF%E4%BB%B6/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>XCA 软件使用</title>
+      <link>https://whj2819.github.io/post/xca/</link>
+      <pubDate>Wed, 25 Mar 2020 00:00:00 +0800</pubDate>
+      
+      <guid>https://whj2819.github.io/post/xca/</guid>
+      <description>TODOXCA 1 (message &amp;#34;hello&amp;#34;) 1 2 3 4 5 6 #include &amp;lt;stdio.h&amp;gt; int main(int argc, char *argv[]) { printf(&amp;#34;Hello World\r\n&amp;#34;); }</description>
+    </item>
     
     <item>
       <title>软件推荐</title>
