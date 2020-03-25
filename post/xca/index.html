@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>XCA(一)  制作 CA 证书 - Even - A super concise theme for Hugo</title>
+  <meta name="renderer" content="webkit" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+<meta name="theme-color" content="#f8f5ec" />
+<meta name="msapplication-navbutton-color" content="#f8f5ec">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
+
+
+<meta name="author" content="不吃熊的北极鹅" /><meta name="description" content="DONEXCA State &amp;ldquo;DONE&amp;rdquo; from &amp;ldquo;TODO&amp;rdquo; [2020-03-25 周三 15:55] 完成CA证书制作介绍. 软件下载地址 软件版本 2.1.2 xca 界面 首先创建一个用于保存数据的 database. 输入用于保护 database 的密码. 选择 certificates 页面, 点击 New Certificate 选" /><meta name="keywords" content="Hugo, theme, even" />
+
+
+
+
+
+
+<meta name="generator" content="Hugo 0.67.1 with theme even" />
+
+
+<link rel="canonical" href="https://whj2819.github.io/post/xca/" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+
+
+<link href="/dist/even.c2a46f00.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.css" integrity="sha256-7TyXnr2YU040zfSP+rEcz29ggW4j56/ujTPwjMzyqFY=" crossorigin="anonymous">
+
+
+<meta property="og:title" content="XCA(一)  制作 CA 证书" />
+<meta property="og:description" content="DONEXCA State &ldquo;DONE&rdquo; from &ldquo;TODO&rdquo; [2020-03-25 周三 15:55] 完成CA证书制作介绍. 软件下载地址 软件版本 2.1.2 xca 界面 首先创建一个用于保存数据的 database. 输入用于保护 database 的密码. 选择 certificates 页面, 点击 New Certificate 选" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://whj2819.github.io/post/xca/" />
+<meta property="article:published_time" content="2020-03-25T00:00:00+08:00" />
+<meta property="article:modified_time" content="2020-03-25T16:04:01+08:00" />
+<meta itemprop="name" content="XCA(一)  制作 CA 证书">
+<meta itemprop="description" content="DONEXCA State &ldquo;DONE&rdquo; from &ldquo;TODO&rdquo; [2020-03-25 周三 15:55] 完成CA证书制作介绍. 软件下载地址 软件版本 2.1.2 xca 界面 首先创建一个用于保存数据的 database. 输入用于保护 database 的密码. 选择 certificates 页面, 点击 New Certificate 选">
+<meta itemprop="datePublished" content="2020-03-25T00:00:00&#43;08:00" />
+<meta itemprop="dateModified" content="2020-03-25T16:04:01&#43;08:00" />
+<meta itemprop="wordCount" content="170">
+
+
+
+<meta itemprop="keywords" content="software,SSL,证书,xca,emacs,org-mode," /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="XCA(一)  制作 CA 证书"/>
+<meta name="twitter:description" content="DONEXCA State &ldquo;DONE&rdquo; from &ldquo;TODO&rdquo; [2020-03-25 周三 15:55] 完成CA证书制作介绍. 软件下载地址 软件版本 2.1.2 xca 界面 首先创建一个用于保存数据的 database. 输入用于保护 database 的密码. 选择 certificates 页面, 点击 New Certificate 选"/>
+
+<!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+<![endif]-->
+
+</head>
+<body>
+  <div id="mobile-navbar" class="mobile-navbar">
+  <div class="mobile-header-logo">
+    <a href="/" class="logo">Even</a>
+  </div>
+  <div class="mobile-navbar-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</div>
+<nav id="mobile-menu" class="mobile-menu slideout-menu">
+  <ul class="mobile-menu-list">
+    <a href="/">
+        <li class="mobile-menu-item">Home</li>
+      </a><a href="/post/">
+        <li class="mobile-menu-item">Archives</li>
+      </a><a href="/tags/">
+        <li class="mobile-menu-item">Tags</li>
+      </a><a href="/categories/">
+        <li class="mobile-menu-item">Categories</li>
+      </a>
+  </ul>
+</nav>
+  <div class="container" id="mobile-panel">
+    <header id="header" class="header">
+        <div class="logo-wrapper">
+  <a href="/" class="logo">Even</a>
+</div>
+
+<nav class="site-navbar">
+  <ul id="menu" class="menu">
+    <li class="menu-item">
+        <a class="menu-item-link" href="/">Home</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/post/">Archives</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/tags/">Tags</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/categories/">Categories</a>
+      </li>
+  </ul>
+</nav>
+    </header>
+
+    <main id="main" class="main">
+      <div class="content-wrapper">
+        <div id="content" class="content">
+          <article class="post">
+    
+    <header class="post-header">
+      <h1 class="post-title">XCA(一)  制作 CA 证书</h1>
+
+      <div class="post-meta">
+        <span class="post-time"> 2020-03-25 </span>
+        
+        
+      </div>
+    </header>
+
+    <div class="post-toc" id="post-toc">
+  <h2 class="post-toc-title">Contents</h2>
+  <div class="post-toc-content always-active">
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#xca"><!-- raw HTML omitted -->DONE<!-- raw HTML omitted --> XCA</a></li>
+  </ul>
+</nav>
+  </div>
+</div>
+    <div class="post-content">
+      <h2 id="xca"><!-- raw HTML omitted -->DONE<!-- raw HTML omitted --> XCA</h2>
+<ul>
+<li>State &ldquo;DONE&rdquo;       from &ldquo;TODO&rdquo;       <!-- raw HTML omitted --><!-- raw HTML omitted -->[2020-03-25 周三 15:55] <!-- raw HTML omitted --><!-- raw HTML omitted --> <!-- raw HTML omitted -->
+完成CA证书制作介绍.</li>
+</ul>
+<!-- raw HTML omitted -->
+<ul>
+<li><a href="http://xca.hohnstatedt.de">软件下载地址</a></li>
+<li>软件版本 2.1.2</li>
+<li>xca 界面</li>
+</ul>
+<figure>
+    <img src="/ox-hugo/xca001.png"/> 
+</figure>
+
+<ul>
+<li>首先创建一个用于保存数据的 database.</li>
+</ul>
+<figure>
+    <img src="/ox-hugo/xca002.png"/> 
+</figure>
+
+<ul>
+<li>输入用于保护 database 的密码.</li>
+</ul>
+<figure>
+    <img src="/ox-hugo/xca003.png"/> 
+</figure>
+
+<ul>
+<li>选择 certificates 页面, 点击 New Certificate 选项,出现如下所示界面:</li>
+<li>这里我们首先需要制作自签名CA 证书,所以这里模板选择default CA, 然后点击 apply all.</li>
+</ul>
+<figure>
+    <img src="/ox-hugo/xca004.png"/> 
+</figure>
+
+<ul>
+<li>切换到 subject 页面, 填写好各字段.</li>
+</ul>
+<figure>
+    <img src="/ox-hugo/xca005.png"/> 
+</figure>
+
+<ul>
+<li>点击 generate a new key 产生私钥.</li>
+</ul>
+<figure>
+    <img src="/ox-hugo/xca006.png"/> 
+</figure>
+
+<ul>
+<li>最后点击 ok, 完成 CA证书的制作, 默认有效期10年.</li>
+</ul>
+<p><img src="/ox-hugo/xca007.png" alt="">
+<img src="/ox-hugo/xca008.png" alt=""></p>
+
+    </div>
+
+    <div class="post-copyright">
+  <p class="copyright-item">
+    <span class="item-title">Author</span>
+    <span class="item-content">不吃熊的北极鹅</span>
+  </p>
+  <p class="copyright-item">
+    <span class="item-title">LastMod</span>
+    <span class="item-content">
+        2020-03-25
+        
+    </span>
+  </p>
+  
+  
+</div>
+<footer class="post-footer">
+      <div class="post-tags">
+          <a href="/tags/software/">software</a>
+          <a href="/tags/ssl/">SSL</a>
+          <a href="/tags/%E8%AF%81%E4%B9%A6/">证书</a>
+          <a href="/tags/xca/">xca</a>
+          <a href="/tags/emacs/">emacs</a>
+          <a href="/tags/org-mode/">org-mode</a>
+          </div>
+      <nav class="post-nav">
+        <a class="prev" href="/post/orgmode/">
+            <i class="iconfont icon-left"></i>
+            <span class="prev-text nav-default">Org Mode</span>
+            <span class="prev-text nav-mobile">Prev</span>
+          </a>
+        <a class="next" href="/post/xca02/">
+            <span class="next-text nav-default">XCA(二)  制作服务端证书.</span>
+            <span class="next-text nav-mobile">Next</span>
+            <i class="iconfont icon-right"></i>
+          </a>
+      </nav>
+    </footer>
+  </article>
+        </div>
+        
+  <span id="/post/xca/" class="leancloud_visitors" data-flag-title="XCA(一)  制作 CA 证书">
+      <span class="post-meta-item-text">文章阅读量 </span>
+      <span class="leancloud-visitors-count">1000000</span>
+      <p></p>
+  </span>
+  <div id="vcomments"></div>
+  <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+  <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+  <script type="text/javascript">
+      new Valine({
+          el: '#vcomments' ,
+          appId: '7ak5goYi9mKgaKUKhk8iuese-gzGzoHsz',
+          appKey: 's2ev05WeucTcBL39RjQb0qIg',
+          notify:  false , 
+          verify:  false , 
+          avatar:'mm', 
+          placeholder: '说点什么吧...',
+          visitor:  true 
+
+      });
+  </script>
+
+  
+
+  
+
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="social-links">
+      <a href="mailto:your@email.com" class="iconfont icon-email" title="email"></a>
+      <a href="http://localhost:1313" class="iconfont icon-stack-overflow" title="stack-overflow"></a>
+      <a href="http://localhost:1313" class="iconfont icon-twitter" title="twitter"></a>
+      <a href="http://localhost:1313" class="iconfont icon-facebook" title="facebook"></a>
+      <a href="http://localhost:1313" class="iconfont icon-linkedin" title="linkedin"></a>
+      <a href="http://localhost:1313" class="iconfont icon-google" title="google"></a>
+      <a href="http://localhost:1313" class="iconfont icon-github" title="github"></a>
+      <a href="http://localhost:1313" class="iconfont icon-weibo" title="weibo"></a>
+      <a href="http://localhost:1313" class="iconfont icon-zhihu" title="zhihu"></a>
+      <a href="http://localhost:1313" class="iconfont icon-douban" title="douban"></a>
+      <a href="http://localhost:1313" class="iconfont icon-pocket" title="pocket"></a>
+      <a href="http://localhost:1313" class="iconfont icon-tumblr" title="tumblr"></a>
+      <a href="http://localhost:1313" class="iconfont icon-instagram" title="instagram"></a>
+      <a href="http://localhost:1313" class="iconfont icon-gitlab" title="gitlab"></a>
+      <a href="http://localhost:1313" class="iconfont icon-bilibili" title="bilibili"></a>
+  <a href="https://whj2819.github.io/index.xml" type="application/rss+xml" class="iconfont icon-rss" title="rss"></a>
+</div>
+
+<div class="copyright">
+  <span class="power-by">
+    Powered by <a class="hexo-link" href="https://gohugo.io">Hugo</a>
+  </span>
+  <span class="division">|</span>
+  <span class="theme-info">
+    Theme - 
+    <a class="theme-link" href="https://github.com/olOwOlo/hugo-theme-even">Even</a>
+  </span>
+
+  
+
+  <span class="copyright-year">
+    &copy; 
+    2017 - 
+    2020
+    <span class="heart">
+      <i class="iconfont icon-heart"></i>
+    </span>
+    <span class="author">不吃熊的北极鹅</span>
+  </span>
+</div>
+    </footer>
+
+    <div class="back-to-top" id="back-to-top">
+      <i class="iconfont icon-up"></i>
+    </div>
+  </div>
+  
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/slideout@1.0.1/dist/slideout.min.js" integrity="sha256-t+zJ/g8/KXIJMjSVQdnibt4dlaDxc9zXr/9oNPeWqdg=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.js" integrity="sha256-XVLffZaxoWfGUEbdzuLi7pwaUJv1cecsQJQqGLe7axY=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/dist/even.26188efa.min.js"></script>
+
+
+
+
+
+
+
+
+</body>
+</html>

@@ -6,10 +6,37 @@
     <description>Recent content on Even - A super concise theme for Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 24 Mar 2020 20:52:39 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 25 Mar 2020 00:00:00 +0800</lastBuildDate>
     
 	<atom:link href="https://whj2819.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Org Mode</title>
+      <link>https://whj2819.github.io/post/orgmode/</link>
+      <pubDate>Wed, 25 Mar 2020 00:00:00 +0800</pubDate>
+      
+      <guid>https://whj2819.github.io/post/orgmode/</guid>
+      <description>TODOOrg Mode State &amp;ldquo;TODO&amp;rdquo; from [2020-03-25 周三 16:02]</description>
+    </item>
+    
+    <item>
+      <title>XCA(一)  制作 CA 证书</title>
+      <link>https://whj2819.github.io/post/xca/</link>
+      <pubDate>Wed, 25 Mar 2020 00:00:00 +0800</pubDate>
+      
+      <guid>https://whj2819.github.io/post/xca/</guid>
+      <description>DONEXCA State &amp;ldquo;DONE&amp;rdquo; from &amp;ldquo;TODO&amp;rdquo; [2020-03-25 周三 15:55] 完成CA证书制作介绍. 软件下载地址 软件版本 2.1.2 xca 界面 首先创建一个用于保存数据的 database. 输入用于保护 database 的密码. 选择 certificates 页面, 点击 New Certificate 选</description>
+    </item>
+    
+    <item>
+      <title>XCA(二)  制作服务端证书.</title>
+      <link>https://whj2819.github.io/post/xca02/</link>
+      <pubDate>Wed, 25 Mar 2020 00:00:00 +0800</pubDate>
+      
+      <guid>https://whj2819.github.io/post/xca02/</guid>
+      <description>TODO服务端证书制作 State &amp;ldquo;TODO&amp;rdquo; from [2020-03-25 周三 16:06]</description>
+    </item>
     
     <item>
       <title>About Me</title>
@@ -26,7 +53,7 @@
       <pubDate>Tue, 24 Mar 2020 00:00:00 +0800</pubDate>
       
       <guid>https://whj2819.github.io/post/books/</guid>
-      <description>人文 路遥 平凡的世界. 人生 余华 活着 许散观卖血记 在细雨中呼喊 都梁 亮剑 狼烟北平 血色浪漫 焦波 俺爹俺娘 东野圭吾 白夜行 放学后 嫌疑犯 X 的献身 解忧杂货店 恶意</description>
+      <description>人文 路遥 平凡的世界. 人生 余华 活着 许三观卖血记 在细雨中呼喊 都梁 亮剑 狼烟北平 血色浪漫 焦波 俺爹俺娘 东野圭吾 白夜行 放学后 嫌疑犯 X 的献身 解忧杂货店 恶意</description>
     </item>
     
     <item>
