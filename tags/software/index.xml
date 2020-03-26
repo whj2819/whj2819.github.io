@@ -6,10 +6,19 @@
     <description>Recent content in software on Even - A super concise theme for Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 25 Mar 2020 00:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 26 Mar 2020 00:00:00 +0800</lastBuildDate>
     
 	<atom:link href="https://whj2819.github.io/tags/software/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>XCA(二)  制作服务端证书.</title>
+      <link>https://whj2819.github.io/post/xca02/</link>
+      <pubDate>Thu, 26 Mar 2020 00:00:00 +0800</pubDate>
+      
+      <guid>https://whj2819.github.io/post/xca02/</guid>
+      <description>服务端证书制作 选择已经制作好的CA证书, 然后点击 new certificate 签名的时候选择先前制作好的根 CA, 模板选择https_server. 制作完成. 将服务器证书以</description>
+    </item>
     
     <item>
       <title>Org Mode</title>
@@ -26,16 +35,7 @@
       <pubDate>Wed, 25 Mar 2020 00:00:00 +0800</pubDate>
       
       <guid>https://whj2819.github.io/post/xca/</guid>
-      <description>DONEXCA State &amp;ldquo;DONE&amp;rdquo; from &amp;ldquo;TODO&amp;rdquo; [2020-03-25 周三 15:55] 完成CA证书制作介绍. 软件下载地址 软件版本 2.1.2 xca 界面 首先创建一个用于保存数据的 database. 输入用于保护 database 的密码. 选择 certificates 页面, 点击 New Certificate 选</description>
-    </item>
-    
-    <item>
-      <title>XCA(二)  制作服务端证书.</title>
-      <link>https://whj2819.github.io/post/xca02/</link>
-      <pubDate>Wed, 25 Mar 2020 00:00:00 +0800</pubDate>
-      
-      <guid>https://whj2819.github.io/post/xca02/</guid>
-      <description>TODO服务端证书制作 State &amp;ldquo;TODO&amp;rdquo; from [2020-03-25 周三 16:06]</description>
+      <description>XCA 软件下载地址 软件版本 2.1.2 xca 界面 首先创建一个用于保存数据的 database. 输入用于保护 database 的密码. 选择 certificates 页面, 点击 New Certificate 选项,出现如下所示界面: 这里我们首先需要</description>
     </item>
     
   </channel>
