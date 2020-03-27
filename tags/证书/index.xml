@@ -6,10 +6,19 @@
     <description>Recent content in 证书 on Even - A super concise theme for Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 26 Mar 2020 00:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 27 Mar 2020 00:00:00 +0800</lastBuildDate>
     
 	<atom:link href="https://whj2819.github.io/tags/%E8%AF%81%E4%B9%A6/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>数字签名是什么</title>
+      <link>https://whj2819.github.io/post/27/</link>
+      <pubDate>Fri, 27 Mar 2020 00:00:00 +0800</pubDate>
+      
+      <guid>https://whj2819.github.io/post/27/</guid>
+      <description>这里转载一下阮老师博客的一篇文章, 阮一峰. 通过阅读这篇文章可以理解数字签名、数字证书这些内容, 对理解 ssl 握手过程有一定的帮助. 原文网址.</description>
+    </item>
     
     <item>
       <title>XCA(二)  制作服务端证书.</title>

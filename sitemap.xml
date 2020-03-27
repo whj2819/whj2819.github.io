@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://whj2819.github.io/post/27/</loc>
+    <lastmod>2020-03-27T10:23:36+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://whj2819.github.io/post/xca02/</loc>
     <lastmod>2020-03-26T13:09:39+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -52,28 +59,49 @@
   
   <url>
     <loc>https://whj2819.github.io/post/2020/03/22/</loc>
-    <lastmod>2020-03-25T04:20:29+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://whj2819.github.io/post/22/</loc>
     <lastmod>2020-03-26T12:34:32+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
+    <loc>https://whj2819.github.io/categories/</loc>
+    <lastmod>2020-03-27T10:23:36+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://whj2819.github.io/</loc>
-    <lastmod>2020-03-26T13:09:39+08:00</lastmod>
+    <lastmod>2020-03-27T10:23:36+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://whj2819.github.io/post/</loc>
-    <lastmod>2020-03-26T13:09:39+08:00</lastmod>
+    <lastmod>2020-03-27T10:23:36+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://whj2819.github.io/tags/</loc>
+    <lastmod>2020-03-27T10:23:36+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://whj2819.github.io/categories/%E6%8A%80%E6%9C%AF/</loc>
+    <lastmod>2020-03-27T10:23:36+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://whj2819.github.io/tags/%E8%AF%81%E4%B9%A6/</loc>
+    <lastmod>2020-03-27T10:23:36+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -93,21 +121,7 @@
   </url>
   
   <url>
-    <loc>https://whj2819.github.io/tags/</loc>
-    <lastmod>2020-03-26T13:09:39+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://whj2819.github.io/tags/xca/</loc>
-    <lastmod>2020-03-26T13:09:39+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://whj2819.github.io/tags/%E8%AF%81%E4%B9%A6/</loc>
     <lastmod>2020-03-26T13:09:39+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -156,20 +170,6 @@
   </url>
   
   <url>
-    <loc>https://whj2819.github.io/categories/</loc>
-    <lastmod>2020-03-26T12:34:32+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://whj2819.github.io/categories/emacs/</loc>
-    <lastmod>2020-03-25T04:20:29+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://whj2819.github.io/tags/hugo/</loc>
     <lastmod>2020-03-26T12:34:32+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -185,13 +185,6 @@
   
   <url>
     <loc>https://whj2819.github.io/tags/ox-hugo/</loc>
-    <lastmod>2020-03-26T12:34:32+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://whj2819.github.io/categories/%E6%8A%80%E6%9C%AF/</loc>
     <lastmod>2020-03-26T12:34:32+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>

@@ -20,14 +20,5 @@
       <description>Manjaro 平台安装 hugo sudo pacman -S hugo 建立 hugo 项目 hugo new site [project-name] 添加主题 为了加速博客搭建, 我们可以使用主题,这里以 m10c 样式为例. hugo 主题样式 git clone https://github.com/vaga/hugo-theme-m10c.git themes/m10c 启动 hugo hugo server -t m10c &amp;ndash;buildDrafts 用 -t 参</description>
     </item>
     
-    <item>
-      <title>hugo 安装</title>
-      <link>https://whj2819.github.io/post/22/</link>
-      <pubDate>Sun, 22 Mar 2020 00:00:00 +0800</pubDate>
-      
-      <guid>https://whj2819.github.io/post/22/</guid>
-      <description>Manjaro 平台安装 hugo sudo pacman -S hugo 建立 hugo 项目 hugo new site [project-name] 添加主题 为了加速博客搭建, 我们可以使用主题,这里以 m10c 样式为例. hugo 主题样式 git clone https://github.com/vaga/hugo-theme-m10c.git themes/m10c 启动 hugo hugo server -t m10c &amp;ndash;buildDrafts 用 -t 参</description>
-    </item>
-    
   </channel>
 </rss>
